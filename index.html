@@ -18,6 +18,33 @@
   font-size: 150px;
   color: white;
 }
+.column {
+  float: left;
+  padding: 10px;
+  height: 2000px;
+  text-align: center;
+  position: relative;
+}
+.column.left {
+  width: 33%;
+}
+.column.middle {
+  width: 33%;
+}
+.column.right {
+  width: 33%;
+}
+a:link, a:visited {
+  background-color:rgb(32, 66, 145);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color:rgb(51, 102, 222);
+}
     
   </style>
   <title> Ben Meredith
@@ -30,5 +57,15 @@
 </div>
 </head>
 <body>
+ <div class="column left" style="background-color:white;">
+  <A HREF="awards.html"> Awards </A>
+ </div>
+ <div class="column middle" style="background-color:white;">
+  <A HREF="athletics.html"> Atheletics </A>
+  <A HREF="extracurricular.html"> Extracurricular </A>
+ </div>
+ <div class="column left" style="background-color:white;">
+  <A HREF="academics.html"> Academics </A>
+ </div>
 </body>
 </html>
